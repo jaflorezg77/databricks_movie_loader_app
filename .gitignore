@@ -1,0 +1,22 @@
+# Dependencias
+node_modules/
+
+# Build de Vite (Databricks lo genera con npm run build)
+frontend/dist/
+
+# Entorno local y secretos
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Herramientas locales
+.databricks/
+*.log
+.DS_Store
+Thumbs.db
